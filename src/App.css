@@ -1,0 +1,126 @@
+.logo{
+    text-decoration: none !important;
+    color: aliceblue !important;
+}
+a:hover{
+    cursor: pointer !important;
+    color: aliceblue !important;
+}
+.p h1{
+    color: rgb(0, 172, 172);
+    text-transform: capitalize;
+    font-size: 18px;
+}
+.header{
+    display: flex !important;
+    align-items: center !important;
+}
+.ul{
+    list-style-type: decimal;
+}
+.ul li{
+    margin: 8px 0px;
+}
+a{
+    text-decoration: none !important;
+    color: aliceblue !important;
+    font-size: 18px !important;
+
+}
+.aboutMain{
+    display: flex;
+    padding: 20px;
+    background-color: aliceblue;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+.mainCard{
+    width: 400px !important;
+
+}
+.cardImage{
+    width: 400px !important;
+    height: 300px !important;
+    
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px 5px;
+}
+.footer{
+    padding: 10px;
+    background-color: cadetblue;
+    text-align: center;
+    text-transform: capitalize;
+    
+}
+.filtermain{
+    min-width: 300px;
+    
+    /* background-color: da; */
+    padding: 30px;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 400px !important;
+    height:100%;
+    text-transform: capitalize;
+    border: 2px solid gray;
+    
+}
+.cardmain{
+    flex-wrap: wrap !important;
+    width: 100% !important;
+}
+.img{
+    width: 300px !important;
+}
+.filtermain div{
+    margin: 10px 0px;
+}
+
+.m{
+    display: flex;
+    padding: 10px;
+
+}
+.text >a{
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 17px;
+    background-color: green;
+    color: aliceblue;
+    margin: 10px 0px;
+
+}
+
+@media(max-width:780px) {
+    .m{
+        flex-direction: column;
+        
+    }
+    .filtermain{
+        min-height:200px !important;
+        width: 100%;
+        flex-direction: column;
+        font-size: 12px;
+        padding: 20px;
+    }
+  
+    .search{
+        display:none  !important;
+    }
+    .img{
+        width: 100% !important;
+    }
+    .c{
+        width: 100% !important;
+    }
+}
